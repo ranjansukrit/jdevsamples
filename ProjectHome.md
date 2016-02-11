@@ -1,0 +1,1 @@
+Project contains a growing set of Open Source sample applications for Oracle Fusion Middleware technology. Sample applications are based on blog posts published on Andrejus Baranovskis blog - http://andrejusb.blogspot.com/.
