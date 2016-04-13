@@ -43,6 +43,14 @@
       "source": "everlive",
       "everliveKey": "gsdcgidndquozk94",
       "offlineStorage": true
+    },
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "ranjan1",
+      "title": "Ranjan / Ranjan",
+      "source": "everlive",
+      "everliveKey": "gsdcgidndquozk94",
+      "offlineStorage": true
     }
   ],
   "name": "kendoUiMobileApp",
