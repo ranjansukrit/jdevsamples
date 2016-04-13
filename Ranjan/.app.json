@@ -33,9 +33,128 @@
       "title": "About",
       "addToNavigation": true,
       "icon": "globe"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "masterDetailView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:editableList",
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "longText",
+                  "title": "Long text",
+                  "inputType": "longText",
+                  "dataBindingOptional": "FirstName"
+                }
+              ],
+              "name": "editableListForm",
+              "formType": "list"
+            },
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "firstName",
+                  "title": "FirstName",
+                  "inputType": "text",
+                  "dataBinding": "FirstName"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "username2",
+                  "title": "Username",
+                  "inputType": "text",
+                  "dataBinding": "Age"
+                }
+              ],
+              "name": "editableListForm6",
+              "formType": "edit"
+            },
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "longText1",
+                  "title": "Long text",
+                  "inputType": "longText",
+                  "dataBindingOptional": "FirstName"
+                }
+              ],
+              "name": "editableListForm11",
+              "formType": "detail"
+            },
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "username",
+                  "title": "FirstName",
+                  "inputType": "text",
+                  "dataBinding": "FirstName"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "username1",
+                  "title": "LastName",
+                  "inputType": "text",
+                  "dataBinding": "LastName"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "location",
+                  "title": "Location",
+                  "inputType": "text",
+                  "dataBinding": "Age"
+                }
+              ],
+              "name": "editableListForm12",
+              "formType": "add"
+            }
+          ],
+          "name": "masterDetailViewModel",
+          "dataProvider": "ranjan",
+          "collection": "Person",
+          "headerField": "FirstName",
+          "iconField": true,
+          "subHeaderField": "Designation",
+          "filterField": "FirstName",
+          "group": "Location",
+          "pullToRefresh": true,
+          "endlessScroll": true,
+          "deleteItemButton": true,
+          "deleteItemConfirmation": true,
+          "detailHeaderField": "FirstName",
+          "detailSubHeaderField": "LastName",
+          "detailDescriptionField": "Designation",
+          "addItemForm": true,
+          "editItemForm": true
+        }
+      ],
+      "title": "Person Details",
+      "addToNavigation": true,
+      "icon": "organize"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "ranjan",
+      "title": "Ranjan / Ranjan",
+      "source": "everlive",
+      "everliveKey": "gsdcgidndquozk94",
+      "offlineStorage": true
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "listmenu",
   "transition": "slide",

@@ -13,9 +13,12 @@
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
     <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/ranjan.js"></script>
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/masterDetailView/index.js"></script>
     <script src="components/aboutView/index.js"></script>
     <script src="components/home/index.js"></script>
     <div data-role="layout" data-id="main">
@@ -44,6 +47,7 @@
         <ul id="navigation-container" data-role="listview" data-style="inset">
             <li><a href="components/home/view.html" data-icon="home">Home View</a></li>
             <li><a href="components/aboutView/view.html" data-icon="globe">About</a></li>
+            <li><a href="components/masterDetailView/view.html" data-icon="organize">Person Details</a></li>
         </ul>
     </div>
     <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
