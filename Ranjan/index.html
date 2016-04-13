@@ -21,14 +21,12 @@
     <div data-role="layout" data-id="main">
         <header data-role="header">
             <div data-role="navbar">
+                <a data-role="backbutton" data-align="left">Back</a>
                 <span data-role="view-title"></span>
+                <a data-align="right" data-role="button" class="nav-button" href="#/">Index</a>
             </div>
         </header>
         <footer data-role="footer">
-            <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home View</a>
-                <a href="components/aboutView/view.html" data-icon="globe">About</a>
-            </div>
         </footer>
     </div>
 
@@ -40,6 +38,13 @@
         </header>
         <footer data-role="footer">
         </footer>
+    </div>
+
+    <div data-role="view" data-layout="main-nonav" data-title="Index">
+        <ul id="navigation-container" data-role="listview" data-style="inset">
+            <li><a href="components/home/view.html" data-icon="home">Home View</a></li>
+            <li><a href="components/aboutView/view.html" data-icon="globe">About</a></li>
+        </ul>
     </div>
     <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
