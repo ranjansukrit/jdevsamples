@@ -1,123 +1,134 @@
-.km-flat .km-switch-handle,
-.km-flat .k-slider-selection,
-.km-flat .km-switch-background,
-.km-flat .km-list fieldset legend {
-  color: #10c4b2;
+.km-nova .km-primary,
+.km-nova .km-badge {
+  background: #ff4350;
+  border-color: #ff4350;
 }
-.km-flat .km-rowinsert,
-.km-flat .km-state-active,
-.km-flat .km-scroller-pull,
-.km-flat .km-loader:before,
-.km-flat .k-slider-selection,
-.km-flat .km-touch-scrollbar,
-.km-flat .km-pages .km-current-page,
-.km-flat .k-slider .k-draghandle,
-.km-flat .k-slider .k-draghandle:hover,
-.km-flat .km-tabstrip .km-state-active,
-.km-flat .km-scroller-refresh.km-load-more,
-.km-flat .km-popup .k-state-hover,
-.km-flat .km-popup .k-state-focused,
-.km-flat .km-popup .k-state-selected,
-.km-flat .km-actionsheet > li > a:active,
-.km-flat .km-actionsheet > li > a:hover,
-.km-flat .km-actionsheet > li > .km-state-active,
-.km-flat li.km-state-active .km-listview-link,
-.km-flat li.km-state-active .km-listview-label,
-.km-flat .km-listview-label input[type=radio]:checked,
-.km-flat .km-listview-label input[type=checkbox]:checked {
-  background: #10c4b2;
+.km-nova .km-primary.km-state-active {
+  background: #e63c48;
+  border-color: #e63c48;
 }
-.km-flat .km-filter-wrap > input:focus,
-.km-flat .km-radio-label:before {
-  border-color: #10c4b2;
+.km-nova .km-accent.km-navbar,
+.km-nova .km-accent.k-toolbar,
+.km-nova .km-accent.km-tabstrip,
+.km-nova .km-vertical-tabstrip .km-button.km-state-active:before,
+.km-nova .km-drawer .km-listview li.km-state-active:before {
+  background: #ff4350;
 }
-.km-flat .km-checkbox-label:before,
-.km-flat .km-checkbox-label:after {
-  color: #10c4b2;
-  border-color: #10c4b2;
+.km-nova .km-light .km-view-title,
+.km-nova .km-light.km-navbar .km-back:before,
+.km-nova .km-light.k-toolbar .km-back:before,
+.km-nova .km-light.km-navbar .km-button,
+.km-nova .km-inverse.km-primary .km-state-active,
+.km-nova .km-list > li > .km-listview-link,
+.km-nova .km-legend-button,
+.km-nova .km-collapsible-header,
+.km-nova .km-collapsible-header h1,
+.km-nova .km-collapsible-header h2,
+.km-nova .km-collapsible-header h3,
+.km-nova .km-collapsible-header h4,
+.km-nova .km-collapsible-header h5,
+.km-nova .km-collapsible-header h6,
+.km-nova label.km-required:after,
+.km-nova span.km-switch,
+.km-nova input[type=checkbox]:checked:after,
+.km-nova .km-checkbox:checked + .km-checkbox-label:after,
+.km-nova .km-detail,
+.km-nova .km-detail .km-icon:after {
+  color: #ff4350;
 }
-.km-flat .km-radio-label:after {
-  background-color: #10c4b2;
+.km-nova .km-buttongroup.km-primary .km-button {
+  color: #ff4350;
+  border-color: #ff4350;
 }
-.km-flat,
-.km-flat .km-navbar,
-.km-flat .k-toolbar,
-.km-flat .km-detail,
-.km-flat .km-content,
-.km-flat .km-filter-wrap:before,
-.km-flat .km-filter-reset .km-clear,
-.km-flat .km-filter-wrap > input,
-.km-flat .km-list input[type=password],
-.km-flat .km-list input[type=search],
-.km-flat .km-list input[type=number],
-.km-flat .km-list input[type=tel],
-.km-flat .km-list input[type=url],
-.km-flat .km-list input[type=email],
-.km-flat .km-list input[type=month],
-.km-flat .km-list input[type=color],
-.km-flat .km-list input[type=week],
-.km-flat .km-list input[type=date],
-.km-flat .km-list input[type=time],
-.km-flat .km-list input[type=datetime],
-.km-flat .km-list input[type=datetime-local],
-.km-flat .km-list input[type=text]:not(.k-input),
-.km-flat .km-list select:not([multiple]),
-.km-flat .km-list .k-dropdown-wrap,
-.km-flat .km-list textarea,
-.km-flat .km-list .k-dropdown-wrap .k-input,
-.km-flat .km-loader h1 {
-  color: #4c5356;
+.km-nova .km-buttongroup.km-primary .km-state-active,
+.km-nova .km-inverse.km-primary .km-button,
+.km-nova .km-popup .k-state-focused,
+.km-nova .km-popup .k-state-selected,
+.km-nova input[type=radio]:checked:after,
+.km-nova.km-on-android .km-view input[type=radio].km-check:checked:after,
+.km-nova .km-radio:checked + .km-radio-label:after {
+  background-color: #ff4350;
 }
-.km-flat .km-listview-link:after {
-  color: #97a0a4;
+.km-nova .km-switch-wrapper {
+  border-color: #ff4350;
+  background-color: #ff4350;
 }
-.km-flat .km-content .km-list .km-state-active input[type=password],
-.km-flat .km-content .km-list .km-state-active input[type=search],
-.km-flat .km-content .km-list .km-state-active input[type=number],
-.km-flat .km-content .km-list .km-state-active input[type=tel],
-.km-flat .km-content .km-list .km-state-active input[type=url],
-.km-flat .km-content .km-list .km-state-active input[type=email],
-.km-flat .km-content .km-list .km-state-active input[type=month],
-.km-flat .km-content .km-list .km-state-active input[type=color],
-.km-flat .km-content .km-list .km-state-active input[type=week],
-.km-flat .km-content .km-list .km-state-active input[type=date],
-.km-flat .km-content .km-list .km-state-active input[type=time],
-.km-flat .km-content .km-list .km-state-active input[type=datetime],
-.km-flat .km-content .km-list .km-state-active input[type=datetime-local],
-.km-flat .km-content .km-list .km-state-active input[type=text]:not(.k-input),
-.km-flat .km-content .km-list .km-state-active select:not([multiple]),
-.km-flat .km-content .km-list .km-state-active textarea,
-.km-flat .km-badge,
-.km-flat .km-rowinsert,
-.km-flat .km-rowdelete,
-.km-flat .km-state-active,
-.km-flat .km-switch-label-on,
-.km-flat .km-switch-label-off,
-.km-flat .km-tabstrip .km-button,
-.km-flat .km-popup .k-item,
-.km-flat .km-actionsheet > li > a,
-.km-flat .km-tabstrip .km-state-active,
-.km-flat .k-slider .k-draghandle,
-.km-flat .k-slider .k-draghandle:hover,
-.km-flat .km-scroller-pull .km-icon,
-.km-flat .km-popup.km-pane .km-navbar,
-.km-flat .km-popup.km-pane .k-toolbar,
-.km-flat .km-popup.km-pane .km-tabstrip,
-.km-flat .km-popup .k-state-hover,
-.km-flat .km-popup .k-state-focused,
-.km-flat .km-popup .k-state-selected,
-.km-flat .km-actionsheet > li > a:active,
-.km-flat .km-actionsheet > li > a:hover,
-.km-flat .km-actionsheet > li > .km-state-active,
-.km-flat li.km-state-active .km-listview-link,
-.km-flat li.km-state-active .km-listview-label,
-.km-flat .km-state-active .km-listview-link:after,
-.km-flat .km-invalid-msg {
-  color: #ffffff;
+.km-nova .km-button.km-state-active {
+  background: #ff4350;
 }
-.km-flat .km-loader > *:not(h1),
-.km-flat .km-filter-wrap > input,
-.km-flat .km-switch-handle.km-state-active,
-.km-root .km-flat .km-scroller-refresh span:not(.km-template) {
-  background: #ffffff;
+.km-nova .km-buttongroup .km-button,
+.km-nova .km-buttongroup .km-state-active,
+.km-nova .km-inverse .km-button,
+.km-nova .km-inverse .km-state-active {
+  border-color: #9a000b;
+}
+.km-nova h1,
+.km-nova h2,
+.km-nova h3,
+.km-nova h4,
+.km-nova h5,
+.km-nova h6,
+.km-nova p,
+.km-nova .km-content,
+.km-nova .km-navbar .km-buttongroup .km-state-active,
+.km-nova .km-list > li,
+.km-nova .km-actionsheet > li > a,
+.km-nova .km-popup .k-item,
+.km-nova .km-actionsheet > .km-actionsheet-cancel > a,
+.km-nova .km-collapsible-content,
+.km-nova .km-list > li .km-style-default .km-icon:after,
+.km-nova .km-group-title,
+.km-nova .km-list fieldset legend,
+.km-nova .km-shim li.km-actionsheet-title,
+.km-nova .km-filter-wrap {
+  color: #32364c;
+}
+.km-nova .km-footer,
+.km-nova .km-touch-scrollbar,
+.km-nova .km-loading-left:before {
+  background: #32364c;
+}
+.km-nova .km-navbar,
+.km-nova .k-toolbar,
+.km-nova .km-tabstrip {
+  background-image: linear-gradient(to bottom, #2e3246 0%, #242736 100%);
+}
+.km-nova .km-scrollview-dark {
+  background-color: #32364c;
+}
+.km-nova .km-vertical-tabstrip {
+  background-color: #242736;
+}
+.km-nova .km-drawer .km-navbar,
+.km-nova .km-drawer .km-vertical-tabstrip .km-button.km-state-active,
+.km-nova .km-drawer .km-listview li.km-state-active {
+  background: #1e202d;
+}
+.km-nova .km-drawer,
+.km-nova .km-drawer .km-content {
+  background-color: #2a2d40;
+}
+.km-nova .km-drawer .km-group-title {
+  background-color: #14151e;
+  border-color: #3c415b;
+}
+.km-nova .km-drawer .km-list > li {
+  border-color: #3c415b;
+}
+.km-nova .km-listview-link:after,
+.km-nova .km-listview-label:after {
+  border-color: #cacdce;
+}
+.km-nova .km-list > li label,
+.km-nova .km-list fieldset textarea,
+.km-nova .km-list fieldset input,
+.km-nova .km-checkbox-label,
+.km-nova .km-radio-label {
+  color: #9da2a4;
+}
+.km-nova .km-collapsible-header .km-icon,
+.km-nova .km-expanded .km-collapsible-header .km-icon,
+.km-nova .km-filter-wrap:before,
+.km-nova .km-filter-wrap .km-clear {
+  color: #cacdce;
 }

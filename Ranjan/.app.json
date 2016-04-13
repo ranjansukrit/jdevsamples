@@ -8,6 +8,31 @@
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "aboutView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:about",
+          "name": "aboutViewModel",
+          "appName": "Ranjan App",
+          "appVersion": "Version 1.0",
+          "appDescription": "My own App",
+          "contactButton": true,
+          "contactLabel": "Contact us",
+          "contactMail": "ranjan.pathak@iffcotokio.co.in",
+          "facebookButton": true,
+          "facebookLabel": "Like us on Facebook",
+          "facebookLink": "https://www.facebook.com/Telerik",
+          "twitterButton": true,
+          "twitterLabel": "Follow us on Twitter",
+          "twitterLink": "https://twitter.com/telerik"
+        }
+      ],
+      "title": "About",
+      "addToNavigation": true,
+      "icon": "globe"
     }
   ],
   "dataProviders": [],
@@ -15,8 +40,8 @@
   "navigation": "tabstrip",
   "view": "home",
   "transition": "slide",
-  "skin": "flat",
-  "skinActive": "#10c4b2",
-  "skinText": "#4c5356",
-  "skinSecondary": "#ffffff"
+  "skin": "nova",
+  "skinActive": "#ff4350",
+  "skinText": "#32364c",
+  "skinSecondary": "#888e90"
 }
