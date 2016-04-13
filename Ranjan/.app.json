@@ -35,31 +35,7 @@
       "icon": "globe"
     }
   ],
-  "dataProviders": [
-    {
-      "type": "kendo-ui-mobile:dataProvider",
-      "name": "ranjan",
-      "title": "Ranjan / Ranjan",
-      "source": "everlive",
-      "everliveKey": "gsdcgidndquozk94",
-      "offlineStorage": true
-    },
-    {
-      "type": "kendo-ui-mobile:dataProvider",
-      "name": "ranjan1",
-      "title": "Ranjan / Ranjan",
-      "source": "everlive",
-      "everliveKey": "gsdcgidndquozk94",
-      "offlineStorage": true
-    },
-    {
-      "type": "kendo-ui-mobile:dataProvider",
-      "name": "jsonDataProvider",
-      "title": "JSON Data Service",
-      "source": "json",
-      "url": "https://"
-    }
-  ],
+  "dataProviders": [],
   "name": "kendoUiMobileApp",
   "navigation": "listmenu",
   "transition": "slide",
