@@ -38,7 +38,7 @@
   "dataProviders": [],
   "name": "kendoUiMobileApp",
   "navigation": "listmenu",
-  "transition": "fade",
+  "transition": "slide",
   "skin": "nova",
   "skinActive": "#ff4350",
   "skinText": "#32364c",
