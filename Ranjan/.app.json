@@ -35,7 +35,16 @@
       "icon": "globe"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "ranjan",
+      "title": "Ranjan / Ranjan",
+      "source": "everlive",
+      "everliveKey": "gsdcgidndquozk94",
+      "offlineStorage": true
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "listmenu",
   "transition": "slide",
